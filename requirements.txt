@@ -2,5 +2,5 @@ pandas
 requests
 jupyter
 boto3
-smart_opem
+smart_open
 pymysql

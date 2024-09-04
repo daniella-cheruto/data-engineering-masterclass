@@ -5,7 +5,7 @@ import s3_file_operations as s3_ops
 
 rds_host = "rick-and-morty-****************8.eu-west-1.rds.amazonaws.com" # Replace with your RDS hostname
 rds_username = "admin"
-rds_user_pwd = "******"  # Replace with your password
+rds_user_pwd = "********"  # Replace with your password
 rds_db_name = "rick_and_morty"
 bucket_name = "de-masterclass"   # Replace with your s3 Bucket name
 
