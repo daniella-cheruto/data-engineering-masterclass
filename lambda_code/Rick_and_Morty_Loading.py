@@ -3,11 +3,11 @@ import pandas as pd
 import pymysql.cursors
 import s3_file_operations as s3_ops
 
-rds_host = "rick-and-morty-****************8.eu-west-1.rds.amazonaws.com" # Replace with your RDS hostname
+rds_host = "rick-and-morty-db.cbcam44g65cy.eu-west-1.rds.amazonaws.com" # Replace with your RDS hostname
 rds_username = "admin"
-rds_user_pwd = "********"  # Replace with your password
-rds_db_name = "rick_and_morty"
-bucket_name = "de-masterclass"   # Replace with your s3 Bucket name
+rds_user_pwd = "Cheruiyot123"  # Replace with your password
+rds_db_name = "Rick_and_Morty"
+bucket_name = "de-masterclass-mutai"   # Replace with your s3 Bucket name
 
 def lambda_handler(event, context):
     # Read transformed data from S3
